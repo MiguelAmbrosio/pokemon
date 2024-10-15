@@ -1,0 +1,8 @@
+package com.mx.pokemonapi.repository;
+
+@Service
+public class BitacoraPokemonApiService {
+	
+	
+
+}

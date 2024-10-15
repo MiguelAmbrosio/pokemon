@@ -1,0 +1,87 @@
+1728781069848	Delete element
+1728781111643	Delete element
+1728781275615	Delete element
+1728781346562	Rename package 'com.rigobertocanseco.pokeapidemo.client'
+1728781441083	Rename package 'com.mx.pokeapidemo.client'
+1728781669012	Copy package
+1728781684796	Delete element
+1728782664177	Rename package 'ws'
+1728788071562	Delete element
+1728788115608	Copy compilation unit
+1728788119897	Delete element
+1728788169754	Rename package 'repository'
+1728788227826	Rename package 'entity'
+1728788885744	Copy compilation unit
+1728788888824	Delete element
+1728789457846	Rename type 'Ability'
+1728789468161	Rename type 'AbilityObject'
+1728789477046	Rename type 'Held'
+1728789482855	Rename type 'PokemonResponse'
+1728789489601	Rename type 'Version'
+1728789497536	Rename type 'VersionDetail'
+1728789505534	Rename type 'HeldItem'
+1728790731694	Delete elements
+1728792376139	Delete element
+1728792414488	Delete element
+1728793413197	Copy file
+1728796144747	Delete element
+1728796368727	Rename type 'PokemonResponse'
+1728796375627	Delete element
+1728797045154	Delete element
+1728834528593	Rename type 'RequestService'
+1728834603116	Rename type 'BitacoraPokemonRepository'
+1728834632494	Rename type 'BitacoraPokemonRepositoryImpl'
+1728834654417	Rename type 'RequestRepository'
+1728834677500	Rename type 'Request'
+1728842107258	Rename type 'PokeAPIClient'
+1728842124932	Rename type 'PokemonAPICliente'
+1728842257508	Rename type 'BitacoraPokemonService'
+1728842268184	Rename type 'BitacoraPokemonEntity'
+1728842280410	Rename type 'BitacoraPokemonRepository'
+1728842318686	Rename type 'PokeapiEndpoint'
+1728842324943	Rename type 'PokemonpiEndpoint'
+1728842372759	Rename type 'AbilityObjectVO'
+1728842402792	Rename type 'PokemonAbilidadObjectVO'
+1728842457471	Rename type 'AbilityVO'
+1728842689313	Rename type 'HeldItemVO'
+1728842732321	Rename type 'HeldVO'
+1728842833321	Rename type 'PokemonHeldObjectVO'
+1728842851114	Rename type 'PokemonHeldVO'
+1728843030984	Rename type 'VersionDetailVO'
+1728843052048	Rename type 'VersionVO'
+1728843061994	Rename type 'PokemonHabilidadesVO'
+1728843070444	Rename type 'PokemonHabilidadObjectVO'
+1728843077754	Rename type 'PokemonHeldObjectVO'
+1728843088195	Rename type 'PokemonHeldsVO'
+1728843096996	Rename type 'PokemonResponseVO'
+1728843104406	Rename type 'PokemonVersionDetailVO'
+1728843189971	Rename type 'WebServiceConfig'
+1728843215842	Rename type 'WebServiceInterceptor'
+1728843234719	Rename type 'PokemonApiWSInterceptor'
+1728843248862	Rename type 'PokemonWSConfig'
+1728843481399	Rename type 'PokemonWSApiConfig'
+1728847796461	Rename type 'GetPokemonRequest'
+1728847835649	Rename type 'GetPokemonResponse'
+1728847856458	Rename type 'Pokemon'
+1728847878104	Rename type 'Version'
+1728847903753	Rename type 'VersionDetail'
+1728847913472	Rename type 'PokemonApiVersionDetailVO'
+1728847946895	Rename type 'ObjectFactory'
+1728848028466	Rename type 'Held'
+1728848050913	Rename type 'Ability'
+1728848069283	Rename type 'AbilityObject'
+1728848132661	Rename type 'PokemonApiHeld'
+1728848145050	Rename type 'HeldItem'
+1728850017291	Rename resource 'pokeapi.xsd'
+1728854284593	Rename type 'GetAbilitiesRequest'
+1728855538350	Rename type 'GetBaseExperienceRequest'
+1728855553868	Rename type 'PokemonApiBaseExperiencia'
+1728863986336	Rename type 'GetLocationAreaEncountersRequest'
+1728864157358	Rename type 'GetNameRequest'
+1728864176621	Rename type 'PokemonApiNameRequest'
+1728864223285	Rename type 'GetIdRequest'
+1728864591228	Rename type 'GetHeldItemsRequest'
+1728866523915	Rename type 'BitacoraPokemonApiRepositoryImpl'
+1728866964152	Rename type 'BitacoraPokemonApiService'
+1728918205756	Delete element
+1728925455716	Delete element

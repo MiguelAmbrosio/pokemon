@@ -1,0 +1,38 @@
+package com.mx.pokemonapi.vo;
+
+public class VersionDetailVO {
+    private Integer rarity;
+    private VersionVO version;
+
+    public VersionDetailVO() {
+    }
+
+    public VersionDetailVO(Integer rarity, VersionVO version) {
+        this.rarity = rarity;
+        this.version = version;
+    }
+
+    public Integer getRarity() {
+        return rarity;
+    }
+
+    public void setRarity(Integer rarity) {
+        this.rarity = rarity;
+    }
+
+    public VersionVO getVersion() {
+        return version;
+    }
+
+    public void setVersion(VersionVO version) {
+        this.version = version;
+    }
+
+    @Override
+    public String toString() {
+        return "VersionDetail{" +
+                "rarity=" + rarity +
+                ", version=" + version +
+                '}';
+    }
+}

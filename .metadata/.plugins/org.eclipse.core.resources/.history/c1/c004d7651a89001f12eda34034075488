@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.12 a las 09:43:55 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://rigobertocanseco.dev/pokeapi">
+    <schemaBindings map="false">
+      <package name="dev.rigobertocanseco.pokeapi"/>
+    </schemaBindings>
+    <bindings scd="tns:GetPokemonRequest">
+      <class ref="dev.rigobertocanseco.pokeapi.GetPokemonRequest"/>
+    </bindings>
+    <bindings scd="tns:GetPokemonResponse">
+      <class ref="dev.rigobertocanseco.pokeapi.GetPokemonResponse"/>
+    </bindings>
+    <bindings scd="~tns:Pokemon">
+      <class ref="dev.rigobertocanseco.pokeapi.Pokemon"/>
+    </bindings>
+    <bindings scd="tns:GetAbilitiesRequest">
+      <class ref="dev.rigobertocanseco.pokeapi.GetAbilitiesRequest"/>
+    </bindings>
+    <bindings scd="tns:GetBaseExperienceRequest">
+      <class ref="dev.rigobertocanseco.pokeapi.GetBaseExperienceRequest"/>
+    </bindings>
+    <bindings scd="tns:GetHeldItemsRequest">
+      <class ref="dev.rigobertocanseco.pokeapi.GetHeldItemsRequest"/>
+    </bindings>
+    <bindings scd="tns:GetIdRequest">
+      <class ref="dev.rigobertocanseco.pokeapi.GetIdRequest"/>
+    </bindings>
+    <bindings scd="tns:GetNameRequest">
+      <class ref="dev.rigobertocanseco.pokeapi.GetNameRequest"/>
+    </bindings>
+    <bindings scd="tns:GetLocationAreaEncountersRequest">
+      <class ref="dev.rigobertocanseco.pokeapi.GetLocationAreaEncountersRequest"/>
+    </bindings>
+    <bindings scd="~tns:AbilityObject">
+      <class ref="dev.rigobertocanseco.pokeapi.AbilityObject"/>
+    </bindings>
+    <bindings scd="~tns:Ability">
+      <class ref="dev.rigobertocanseco.pokeapi.Ability"/>
+    </bindings>
+    <bindings scd="~tns:Held">
+      <class ref="dev.rigobertocanseco.pokeapi.Held"/>
+    </bindings>
+    <bindings scd="~tns:HeldItem">
+      <class ref="dev.rigobertocanseco.pokeapi.HeldItem"/>
+    </bindings>
+    <bindings scd="~tns:VersionDetail">
+      <class ref="dev.rigobertocanseco.pokeapi.VersionDetail"/>
+    </bindings>
+    <bindings scd="~tns:Version">
+      <class ref="dev.rigobertocanseco.pokeapi.Version"/>
+    </bindings>
+  </bindings>
+</bindings>
+

@@ -1,0 +1,9 @@
+package com.mx.pokemonapi.vo;
+
+public class BitacoraPokemonApiVO {
+	
+	
+	 private Long id;
+	 private String ipOrigen;
+
+}

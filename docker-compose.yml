@@ -1,0 +1,13 @@
+
+
+services:
+  pokemonapi:
+    build: PokemonApi
+    mem_limit: 512m
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: jdbc:h2:file:./pokeapidb;MODE=PostgreSQL
+      DB_USER_NAME: sa
+      DB_PASSWORD: password
+    restart: always 

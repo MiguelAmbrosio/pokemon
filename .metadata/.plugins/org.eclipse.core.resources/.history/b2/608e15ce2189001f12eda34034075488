@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.12 a las 09:43:55 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://rigobertocanseco.dev/pokeapi">
+    <schemaBindings map="false">
+      <package name="com.mx.pokemonapi.xml"/>
+    </schemaBindings>
+    <bindings scd="tns:GetPokemonRequest">
+      <class ref="com.mx.pokemonapi.xml.GetPokemonRequest"/>
+    </bindings>
+    <bindings scd="tns:GetPokemonResponse">
+      <class ref="com.mx.pokemonapi.xml.GetPokemonResponse"/>
+    </bindings>
+    <bindings scd="~tns:Pokemon">
+      <class ref="com.mx.pokemonapi.xml.Pokemon"/>
+    </bindings>
+    <bindings scd="tns:GetAbilitiesRequest">
+      <class ref="com.mx.pokemonapi.xml.GetAbilitiesRequest"/>
+    </bindings>
+    <bindings scd="tns:GetBaseExperienceRequest">
+      <class ref="com.mx.pokemonapi.xml.GetBaseExperienceRequest"/>
+    </bindings>
+    <bindings scd="tns:GetHeldItemsRequest">
+      <class ref="com.mx.pokemonapi.xml.GetHeldItemsRequest"/>
+    </bindings>
+    <bindings scd="tns:GetIdRequest">
+      <class ref="com.mx.pokemonapi.xml.GetIdRequest"/>
+    </bindings>
+    <bindings scd="tns:GetNameRequest">
+      <class ref="com.mx.pokemonapi.xml.GetNameRequest"/>
+    </bindings>
+    <bindings scd="tns:GetLocationAreaEncountersRequest">
+      <class ref="com.mx.pokemonapi.xml.GetLocationAreaEncountersRequest"/>
+    </bindings>
+    <bindings scd="~tns:AbilityObject">
+      <class ref="com.mx.pokemonapi.xml.AbilityObject"/>
+    </bindings>
+    <bindings scd="~tns:Ability">
+      <class ref="com.mx.pokemonapi.xml.Ability"/>
+    </bindings>
+    <bindings scd="~tns:Held">
+      <class ref="com.mx.pokemonapi.xml.Held"/>
+    </bindings>
+    <bindings scd="~tns:HeldItem">
+      <class ref="com.mx.pokemonapi.xml.HeldItem"/>
+    </bindings>
+    <bindings scd="~tns:VersionDetail">
+      <class ref="com.mx.pokemonapi.xml.VersionDetail"/>
+    </bindings>
+    <bindings scd="~tns:Version">
+      <class ref="com.mx.pokemonapi.xml.Version"/>
+    </bindings>
+  </bindings>
+</bindings>
+

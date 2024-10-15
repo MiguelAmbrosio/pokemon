@@ -1,0 +1,20 @@
+package com.mx.pokemonapi.repository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.mx.pokemonapi.vo.BitacoraPokemonApiVO;
+
+@Service
+public class BitacoraPokemonApiService {
+	
+	@Autowired
+    private BitacoraPokemonApiRepository bitacoraRepository;
+	
+	
+	public void guardarBitacora(BitacoraPokemonApiVO bitacoraPokemonApiVO) {
+        bitacoraRepository.save(entity);  // Usa el método save() que ya proporciona JpaRepository
+    }
+	
+
+}

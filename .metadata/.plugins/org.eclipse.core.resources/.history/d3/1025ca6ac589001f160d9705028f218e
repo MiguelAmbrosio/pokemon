@@ -1,0 +1,5 @@
+package com.mx.pokemonapi.vo;
+
+public class BitacoraPokemonApiVO {
+
+}

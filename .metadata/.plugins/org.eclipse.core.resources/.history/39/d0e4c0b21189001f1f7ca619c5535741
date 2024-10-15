@@ -1,0 +1,119 @@
+package com.mx.pokemonapi.vo;
+
+import java.util.ArrayList;
+
+public class PokemonResponse {
+    private ArrayList<Ability> abilities;
+    private Integer baseExperience;
+    private ArrayList<Held> heldItems;
+    private Integer id;
+    private String name;
+    private String locationAreaEncounters;
+
+
+
+    /**
+	 * @return the abilities
+	 */
+	public ArrayList<Ability> getAbilities() {
+		return abilities;
+	}
+
+
+	/**
+	 * @param abilities the abilities to set
+	 */
+	public void setAbilities(ArrayList<Ability> abilities) {
+		this.abilities = abilities;
+	}
+
+
+	/**
+	 * @return the baseExperience
+	 */
+	public Integer getBaseExperience() {
+		return baseExperience;
+	}
+
+	/**
+	 * @param baseExperience the baseExperience to set
+	 */
+	public void setBaseExperience(Integer baseExperience) {
+		this.baseExperience = baseExperience;
+	}
+
+
+	/**
+	 * @return the heldItems
+	 */
+	public ArrayList<Held> getHeldItems() {
+		return heldItems;
+	}
+
+
+	/**
+	 * @param heldItems the heldItems to set
+	 */
+	public void setHeldItems(ArrayList<Held> heldItems) {
+		this.heldItems = heldItems;
+	}
+
+
+	/**
+	 * @return the id
+	 */
+	public Integer getId() {
+		return id;
+	}
+
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	/**
+	 * @return the locationAreaEncounters
+	 */
+	public String getLocationAreaEncounters() {
+		return locationAreaEncounters;
+	}
+
+
+	/**
+	 * @param locationAreaEncounters the locationAreaEncounters to set
+	 */
+	public void setLocationAreaEncounters(String locationAreaEncounters) {
+		this.locationAreaEncounters = locationAreaEncounters;
+	}
+
+
+	@Override
+    public String toString() {
+        return "PokemonResponse{" +
+                "abilities=" + abilities +
+                ", base_experience=" + baseExperience +
+                ", held_items=" + heldItems +
+                ", id=" + id +
+                ", name='" + name + '\'' +
+                ", location_area_encounters='" + locationAreaEncounters + '\'' +
+                '}';
+    }
+}

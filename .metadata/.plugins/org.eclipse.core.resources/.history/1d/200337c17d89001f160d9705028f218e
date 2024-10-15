@@ -1,0 +1,48 @@
+package com.mx.pokemonapi.entity;
+
+
+
+import java.io.Serializable;
+import java.sql.Timestamp;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table (name = "BITACORA_POKEMON_API") 
+public class BitacoraPokemonEntity  implements Serializable{
+	
+    private static final long serialVersionUID = 1L;
+
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column (name = "ID_BITACORA_POKEMON")
+    private Long id;
+    
+    @Column  (name = "IP_ORIGEN")
+    private String ipOrigen;
+    
+    @Column  (name = "HORARIO")
+    private Timestamp horario;
+    
+    @Column  (name = "METODO")
+    private String metodo;
+
+
+    
+
+    @Override
+    public String toString() {
+        return "Request{" +
+                "id=" + id +
+                ", ipOrigen='" + ipOrigen + '\'' +
+                ", horario=" + horario +
+                ", metodo='" + metodo + '\'' +
+                '}';
+    }
+
+}

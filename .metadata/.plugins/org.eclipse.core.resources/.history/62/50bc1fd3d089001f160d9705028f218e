@@ -1,0 +1,64 @@
+package com.mx.pokemonapi.vo;
+
+import java.sql.Timestamp;
+
+public class BitacoraPokemonApiVO {
+	
+	
+	 private Long id;
+	 private String ipOrigen;
+	 private Timestamp fecha;
+	 private String metodo;
+	 private String tiempo;
+	 
+	 
+	/**
+	 * @return the id
+	 */
+	public Long getId() {
+		return id;
+	}
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Long id) {
+		this.id = id;
+	}
+	/**
+	 * @return the ipOrigen
+	 */
+	public String getIpOrigen() {
+		return ipOrigen;
+	}
+	/**
+	 * @param ipOrigen the ipOrigen to set
+	 */
+	public void setIpOrigen(String ipOrigen) {
+		this.ipOrigen = ipOrigen;
+	}
+	/**
+	 * @return the fecha
+	 */
+	public Timestamp getFecha() {
+		return fecha;
+	}
+	/**
+	 * @param fecha the fecha to set
+	 */
+	public void setFecha(Timestamp fecha) {
+		this.fecha = fecha;
+	}
+	/**
+	 * @return the metodo
+	 */
+	public String getMetodo() {
+		return metodo;
+	}
+	/**
+	 * @param metodo the metodo to set
+	 */
+	public void setMetodo(String metodo) {
+		this.metodo = metodo;
+	}
+
+}

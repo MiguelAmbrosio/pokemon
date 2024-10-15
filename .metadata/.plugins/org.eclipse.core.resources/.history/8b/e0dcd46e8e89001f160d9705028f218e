@@ -1,0 +1,40 @@
+package com.mx.pokemonapi.vo;
+
+import java.util.ArrayList;
+
+public class PokemonHeldsVO {
+    private PokemonHeldObjectVO item;
+    private ArrayList<VersionDetailVO> version_details;
+
+    public PokemonHeldsVO() {
+    }
+
+    public PokemonHeldsVO(PokemonHeldObjectVO item, ArrayList<VersionDetailVO> version_details) {
+        this.item = item;
+        this.version_details = version_details;
+    }
+
+    public PokemonHeldObjectVO getItem() {
+        return item;
+    }
+
+    public void setItem(PokemonHeldObjectVO item) {
+        this.item = item;
+    }
+
+    public ArrayList<VersionDetailVO> getVersionDetails() {
+        return version_details;
+    }
+
+    public void setVersionDetails(ArrayList<VersionDetailVO> version_details) {
+        this.version_details = version_details;
+    }
+
+    @Override
+    public String toString() {
+        return "Held{" +
+                "item=" + item +
+                ", version_details=" + version_details +
+                '}';
+    }
+}

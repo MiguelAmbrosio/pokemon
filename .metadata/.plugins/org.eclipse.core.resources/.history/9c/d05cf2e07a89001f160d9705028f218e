@@ -1,0 +1,30 @@
+package com.mx.pokemonapi.bd;
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+
+import com.mx.pokemonapi.entity.Request;
+import com.mx.pokemonapi.repository.RequestRepository;
+
+import java.util.List;
+
+@Service
+public class BitacoraPokemonRepositoryImpl {
+    private final RequestRepository requestRepository;
+    protected static Logger logger = LoggerFactory.getLogger(BitacoraPokemonService.class);
+
+    public BitacoraPokemonRepositoryImpl(RequestRepository requestRepository) {
+        this.requestRepository = requestRepository;
+    }
+
+    public List<Request> list() {
+        return requestRepository.findAll();
+    }
+
+    public void insertRequest(Request request) {
+        this.requestRepository.save(request);
+        logger.info("Save request: " + request);
+    }
+}

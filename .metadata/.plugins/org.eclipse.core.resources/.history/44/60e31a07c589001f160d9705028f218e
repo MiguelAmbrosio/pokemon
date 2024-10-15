@@ -1,0 +1,10 @@
+package com.mx.pokemonapi.repository;
+
+public class BitacoraPokemonApiRepositoryImpl implements BitacoraPokemonApiRepository {
+	
+	public boolean guardarBitacoraPokemonApi() {
+		return false;
+		
+	}
+
+}
