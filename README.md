@@ -1,7 +1,12 @@
 Pokemon Api
 
-Aqui esta el repositorio del proyecto de pokemon api solo se requiere descargar el proyecto y levantarlo mediante docker. 
-Primero construir con el siguiente comando 
+Aqui esta el repositorio del proyecto de pokemon api solo se requiere descargar el proyecto y compilarlo con 
+
+mvn clean install 
+
+para poder crear el jar 
+y levantarlo mediante docker. 
+Primero construir el proyecto con el siguiente comando 
 
 docker-compose build
 
