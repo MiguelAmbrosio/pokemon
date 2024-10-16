@@ -10,4 +10,6 @@ services:
       DB_URL: jdbc:h2:file:./pokeapidb;MODE=PostgreSQL
       DB_USER_NAME: sa
       DB_PASSWORD: password
+      SPRING_H2_CONSOLE_ENABLED: "true"                 
+      SPRING_H2_CONSOLE_SETTINGS_WEB_ALLOW_OTHERS: "true" 
     restart: always 

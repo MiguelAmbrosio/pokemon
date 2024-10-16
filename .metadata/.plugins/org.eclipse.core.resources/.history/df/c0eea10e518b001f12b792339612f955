@@ -8,5 +8,5 @@ spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:file:./pokeapidb;MODE=PostgreSQL 
 
 spring.jpa.hibernate.ddl-auto=create-drop
-spring.h2.console.settings.web-allow-others=true
+
 
